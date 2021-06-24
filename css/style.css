@@ -1,0 +1,230 @@
+/* Reset start */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #212121;
+  background-image: url(../img/Bitmap.jpg);
+  background-repeat: no-repeat;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+/* Reset end */
+
+/* Default clases start */
+
+.d-flex {
+  display: flex;
+}
+
+.justify-beetween {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-direction {
+  flex-direction: row;
+}
+
+.col-3 {
+  width: 25%;
+	padding: 0 15px;
+
+}
+
+/* Default clases start */
+.container {
+  max-width: 1110px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+#header {
+  margin-top: 46px;
+  height: 650px;
+}
+
+.header-nav {
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.header-nav  a {
+  text-transform: capitalize;
+
+}
+.header-nav  a:hover {
+  border-bottom: 2px solid #FFFFFF;
+
+}
+
+.header-nav  a + a {
+  margin-left: 32px;
+}
+
+.header-titile {
+  margin-top: 130px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  width: 650px;
+  height: 278px;
+}
+
+.header-titile h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 72px;
+  padding: 40px;
+  color: #FFFFFF;
+}
+
+
+  #main {
+  margin-top: 142px;
+}
+
+.section-wrap .studio-info-img {
+  width: 731px;
+  height: 500px;
+  position: relative;
+
+}
+
+.studio-info-title {
+  position: absolute;
+  width: 541px;
+  height: 317px;
+  background-color: #FFFFFF;
+  left: 660px;
+  top: 1030px;
+}
+
+.studio-info-title h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  padding-top: 96px;
+  padding-left: 96px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.studio-info-title .studio-info-title-text {
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  padding-left: 96px;
+  font-size: 15px;
+}
+
+.our-creation-info  {
+  margin-top: 184px;
+  margin-bottom: 80px;
+}
+
+.our-creation-info  h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.our-creation-info .our-creation-btn {
+  width: 157px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  padding: 8px 38px 13px 43px;
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  font: 14px;
+  text-align: center;
+}
+
+.our-creation-info .our-creation-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.our-product-item  {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.our-product-item .product-titile {
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  width: 164px;
+  left: 14.5%;
+  top: calc(50% - 64px/2 + 161px);
+  color: #fff;
+}
+
+.our-product {
+  margin-bottom: 184px;
+}
+
+#footer {
+  height: 160px;
+  background-color: #000;
+}
+
+.footer-info .footer-logo {
+  padding-top: 44px;
+  margin-bottom: 24px;
+}
+
+.footer-nav a {
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+
+
+.footer-nav a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.footer-nav a + a {
+  margin-left: 32px;
+}
+
+.footer-social-nav {
+  padding-top: 44px;
+  margin-bottom: 24px;
+}
+
+
+.footer-social-nav   a + a {
+  margin-left: 50px;
+}
+
+.footer-info-about-comrany p {
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+
+}
